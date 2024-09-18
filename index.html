@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4dcfc48247.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a herf="#" class="logo"><span>Sak</span>shi</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- About Section -->
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I'm <span>Sakshi Mandvakar</span></h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                <img src="image/moana2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>To work in a firm with a professional work driven environment where I can utilize and apply my knowledge, skills which would enable me as a fresh graduate to grow while fulfilling organizational goals.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Developement</span><br>Web App Developement</li>
+                    <li><span>App Developement</span><br>Buliding Android/iOS apps</li>
+                    <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                </ul>
+                </div>
+                     <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2024</span><br>Full Stack Java form SSPU Pune</li>
+                    <li><span>2023</span><br>MCA(Master of Computer Application)</li>
+                    <li><span>2021</span><br>BCS(bio-informatic)</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About Section end -->
+ <!-- Services Section -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consectetur aut sunt error repellat modi.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consectetur aut sunt error repellat modi.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab consectetur aut sunt error repellat modi.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- Portfolio Sction -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/work.png" alt="">
+                <div class="layer">
+                    <h2>Bookstore Management System</h2>
+                    <p>The aim of this web-based Bookstore Management System project is to streamline book inventory management by implementing CRUD operations, allowing users to effortlessly add, delete, and edit book records through an intuitive and accessible web interface.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work3.jpg" alt="">
+                <div class="layer">
+                    <h2>E-commerce</h2>
+                    <p>Create a user-friendly online store that makes shopping effortless, keeps customers engaged, and drives more sales.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work1.jpg" alt="">
+                <div class="layer">
+                    <h2>Quiz App</h2>
+                    <p>Quizzify is an interactive quiz application designed to entertain and educate users on a variety of topics. With a sleek and intuitive user interface, Quizzify offers users the opportunity to test their knowledge, challenge friends, and learn new facts.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+
+   <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sakshimandvakar6094@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9699427221</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="image/Sakshi CV.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                        <input type="hidden" name="access_key" value="6b4e96de-90e8-48af-8be9-07201eca43c0">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Myportfolio. Designed <i class="fa-regular fa-heart"></i> by Sakshi</p>
+        </div>
+         
+    </div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    // const scriptURL = 'https://script.google.com/macros/s/AKfycbz2hD1HlLGF9FUaheIepBnhoU68ZdKC_tvz0ib3p8ohcPlurgXhyNpDNyPYWhf4jM8I_A/exec'
+    // const form = document.forms['submit-to-google-sheet']
+    // const msg = document.getElementById("msg")
+  
+    // form.addEventListener('submit', e => {
+    //   e.preventDefault()
+    //   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    //     .then(response => {
+    //         msg.innerHTML = "Message sent successfully"
+    //         setTimeout(function(){
+    //             msg.innerHTML = ""
+    //         },5000)
+    //         form.reset()
+    //     })
+    //     .catch(error => console.error('Error!', error.message))
+    // })
+  </script>
+</body>
+</html>
